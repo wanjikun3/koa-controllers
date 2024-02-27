@@ -1,6 +1,7 @@
 # koa-controllers
  Require all controllers in a directory
 
+### 初始化
 ```
 // cjs
 const Koa = require('koa')
@@ -31,7 +32,7 @@ module.exports = async (ctx) => {
     return {code:0,msg:'index'}
 }
  ```
-  ```
+ ```
 // esm
 export default  {
     login:async (ctx)=>{
