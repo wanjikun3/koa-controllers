@@ -1,0 +1,17 @@
+{
+  "name": "koa-controllers",
+  "version": "1.0.0",
+  "description": "Require all controllers in a directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["koa","koa-controllers","controller","autoload controller"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanjikun3/koa-controllers.git"
+  },
+  "homepage": "https://github.com/wanjikun3/koa-controllers#readme",
+  "author": "hebianwang",
+  "license": "MIT"
+}
