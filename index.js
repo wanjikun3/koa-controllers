@@ -43,5 +43,5 @@ const koaContrllers = async (app,option = {})=>{
     })
 }
 module.exports=koaContrllers
-module.exports.koaContrller=koaContrllers
+module.exports.koaContrllers=koaContrllers
 module.exports.default=koaContrllers
