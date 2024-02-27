@@ -23,3 +23,25 @@ const app = new Koa()
 koaContrllers(app,{root:__dirname})
 app.listen(3000)
 ```
+
+### controller
+```
+//cjs
+module.exports = async (ctx) => {
+    return {code:0,msg:'index'}
+}
+ ```
+  ```
+// esm
+export default  {
+    login:async (ctx)=>{
+        return {code:0,msg:'login'}
+    },
+    sign:async (ctx)=>{
+        return {code:0,msg:'sign'}
+    },
+    token:async (ctx)=>{
+        return {code:0,msg:'token'}
+    }
+}
+```
