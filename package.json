@@ -1,6 +1,6 @@
 {
   "name": "koa-controllers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Require all controllers in a directory",
   "main": "index.js",
   "scripts": {
