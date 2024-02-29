@@ -1,31 +1,28 @@
 # koa-controllers
  Require all controllers in a directory
 
-### 初始化
+### Init
 ```
 // cjs
 const Koa = require('koa')
-const koaContrllers= require("../index")
+const koaContrllers= require("koa-controllers")
 const app = new Koa()
 
-koaContrllers(app,{root:__dirname})
+koaContrllers(app)
 app.listen(3000)
 ```
 
 ```
 // esm
 import Koa from "koa";
-import { fileURLToPath } from 'url'
-import { dirname } from "path"
-import koaContrllers from '../index.js'
+import koaContrllers from 'koa-controllers'
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
 const app = new Koa()
-koaContrllers(app,{root:__dirname})
+koaContrllers(app)
 app.listen(3000)
 ```
 
-### controller
+### Controller
 ```
 //cjs
 module.exports = async (ctx) => {
